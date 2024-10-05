@@ -1,4 +1,4 @@
-![MasterHead](https://ibagroupit.com/wp-content/uploads/2020/05/banner_1300-357_devops.png)
+![MasterHead](https://www.acldigital.com/sites/default/files/2021-01/Banner_5%20Reasons%20Why%20Your%20Business%20Needs%20to%20Adopt%20DevOps%20Now.jpg)
 <h1 align="center">Hi 👋, I'm Kapilan</h1>
 <h3 align="center"> Uniting development and operations for faster, smoother releases </h3>
 <img align="right" alt="Coding" width="400" src="https://liveimages.algoworks.com/new-algoworks/wp-content/uploads/2022/08/30161708/DevOps-min-min.gif">
