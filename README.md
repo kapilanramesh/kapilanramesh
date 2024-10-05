@@ -1,4 +1,4 @@
-![MasterHead](https://www.aimprosoft.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/cover_3.jpeg.webp)]
+![MasterHead](https://www.aimprosoft.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/cover_3.jpeg.webp)
 <h1 align="center">Hi 👋, I'm Kapilan</h1>
 <h3 align="center"> Uniting development and operations for faster, smoother releases </h3>
 <img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:1400/1*reRpiezl3EnhtteqjoGSLw.gif">
