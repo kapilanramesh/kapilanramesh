@@ -1,7 +1,7 @@
-![MasterHead](https://www.aimprosoft.com/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/08/cover_3.jpeg.webp)
+![MasterHead](https://ibagroupit.com/wp-content/uploads/2020/05/banner_1300-357_devops.png)
 <h1 align="center">Hi 👋, I'm Kapilan</h1>
 <h3 align="center"> Uniting development and operations for faster, smoother releases </h3>
-<img align="right" alt="Coding" width="400" src="https://miro.medium.com/v2/resize:fit:1400/1*reRpiezl3EnhtteqjoGSLw.gif">
+<img align="right" alt="Coding" width="400" src="https://liveimages.algoworks.com/new-algoworks/wp-content/uploads/2022/08/30161708/DevOps-min-min.gif">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kapilanramesh&label=Profile%20views&color=0e75b6&style=flat" alt="kapilanramesh" /> </p>
 
