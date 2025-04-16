@@ -7,7 +7,7 @@
 
 - 🌱 I’m an Aspiring **Devops/cloud engineer**
 
-- 💬 Ask me about **Jenkins, Terraform, Ansible, Docker, Kubernetes**
+- 💬 Ask me about **Jenkins, Terraform, Ansible, Docker, Kubernetes, AWS, Linux**
 
 - 📫 How to reach me **kapilanramesh1@gmail.com**
 
