@@ -5,7 +5,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=kapilanramesh&label=Profile%20views&color=0e75b6&style=flat" alt="kapilanramesh" /> </p>
 
-- 🌱 I’m currently learning **Devops Tools, AWS**
+- 🌱 I’m an Aspiring **Devops/cloud engineer**
 
 - 💬 Ask me about **Jenkins, Terraform, Ansible, Docker, Kubernetes**
 
