@@ -1,15 +1,31 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Description: EC2 Instance with Ubuntu 24 in the Default VPC
 
+Parameters:
+  AMIId:
+    Type: String
+    Description: The AMI ID for Ubuntu 24
+    Default: ami-0e35ddab05955cf57  # Default Ubuntu 24 AMI ID, can be changed during stack creation
+
+  KeyPairName:
+    Type: String
+    Description: The EC2 Key Pair Name to SSH into the instance
+    Default: my-key-pair  # Replace with your key pair name
+
+  SecurityGroupId:
+    Type: String
+    Description: The security group ID to associate with the EC2 instance
+    Default: sg-0aac8814ea093d4c5  # Default security group ID
+
 Resources:
   MyEC2Instance:
     Type: AWS::EC2::Instance
     Properties:
       InstanceType: t2.micro  # Choose the instance type (t2.micro for free tier)
-      ImageId: ami-0e35ddab05955cf57  # Ubuntu 24 AMI ID
-      KeyName: my-key-pair  # Replace with your key pair name
+      ImageId: !Ref AMIId  # Uses the AMI ID parameter
+      KeyName: !Ref KeyPairName  # Uses the Key Pair Name parameter
       SecurityGroupIds:
-        - sg-0aac8814ea093d4c5  # Default security group ID
+        - !Ref SecurityGroupId  # Uses the Security Group ID parameter
       Tags:
         - Key: Name
           Value: MyUbuntu24Instance
