@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: EC2 Instance with Ubuntu 24 in the Default VPC
+
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro  # Choose the instance type (t2.micro for free tier)
+      ImageId: ami-0e35ddab05955cf57  # Ubuntu 24 AMI ID
+      KeyName: my-key-pair  # Replace with your key pair name
+      SecurityGroupIds:
+        - sg-0aac8814ea093d4c5  # Default security group ID
+      Tags:
+        - Key: Name
+          Value: MyUbuntu24Instance
+
+Outputs:
+  InstanceId:
+    Description: "Instance ID"
+    Value: !Ref MyEC2Instance
+  PublicIP:
+    Description: "Public IP of the EC2 instance"
+    Value: !GetAtt MyEC2Instance.PublicIp
